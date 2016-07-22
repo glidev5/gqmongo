@@ -4,7 +4,7 @@
 //
 
 //
-var assert=require("chai").assert;
+var assert=require("mocha").assert;
 var Q=require('q');
 var mongo=require(__dirname+"/../mongo.js");
 var lib={mongo:mongo};
