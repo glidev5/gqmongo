@@ -6,7 +6,7 @@
 //
 var assert=require("assert");
 var Q=require('q');
-var mongo=require(__dirname+"/mongo.js");
+var mongo=require(__dirname+"/../mongo.js");
 var lib={mongo:mongo};
 function log(text){
   console.log(text);
