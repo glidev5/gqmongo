@@ -4,7 +4,6 @@
 //
 
 //
-var assert=require("assert");
 var Q=require('q');
 var mongo=require(__dirname+"/../mongo.js");
 var lib={mongo:mongo};
