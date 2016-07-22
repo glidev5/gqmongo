@@ -10,6 +10,17 @@ function log(text){
   },5);
 }
 
+function tryLog(text){
+  try{
+    if(text)
+    {
+      log(text);
+    }
+  }catch(e){
+    log(e);
+  }
+}
+
 function mongo(o, cb) {
     // mongo(o,cb) runs a single full mongo query
     // in: o.url
