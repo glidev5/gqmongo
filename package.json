@@ -1,0 +1,14 @@
+{
+  "name": "gqmongo",
+  "version": "0.0.1",
+  "private": true,
+  "main":"mongo.js",
+  "scripts": {
+    "test":"mocha test/test.js"
+  },
+  "dependencies": {
+    "q":"1.4.1",
+    "mocha":"2.4.5",
+    "mongo":""
+  }
+}
