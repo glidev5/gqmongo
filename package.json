@@ -1,6 +1,6 @@
 {
   "name": "gqmongo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "main":"mongo.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "dependencies": {
     "q":"1.4.1",
     "mocha":"2.4.5",
-    "mongo":"",
-    "assert":""
+    "mongo":"0.1.0",
+    "assert":"1.4.1"
   }
 }
